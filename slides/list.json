@@ -1,5 +1,20 @@
-[
-  "title.md",
-  "me.md",
-  "browser-sync.md"
+[ "title.md"
+, "me.md"
+, "que-hace.md"
+, "que-hace-avanzado.md"
+, "que-hace-mas.md"
+, "normal-local.md"
+, "normal-remoto.md"
+, "bs-local.md"
+, "bs-remoto-basico.md"
+, "bs-remoto-node.md"
+, "bs-remoto-php.md"
+, "como-usar.md"
+, "usar-local.md"
+, "usar-node.md"
+, "usar-php.md"
+, "como-lo-hace.md"
+, "websockets.md"
+, "socketio.md"
+, "fin.md"
 ]

@@ -1,5 +1,7 @@
-# Browser Sync
+# Browsersync
 
-<small>
-Or how I learned to stop worrying and write code.
+or: How I learned to stop refreshing and write the code
+
+<small class="fragment">
+¿Teléfono rojo?, volamos hacia Moscú
 </small>
