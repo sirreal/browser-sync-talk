@@ -20,7 +20,7 @@
   "scripts": {
     "test": "grunt test",
     "postinstall": "bower -q install",
-    "makeslides": "node scripts/make-slides.js",
+    "makeslides": "node scripts/makeslides.js",
     "demo": "browser-sync start --config demo-browsersync-config.js"
   },
   "dependencies": {

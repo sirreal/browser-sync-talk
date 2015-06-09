@@ -1,4 +1,10 @@
 #!/usr/bin/env node
+// jshint asi:true
+/**
+ * Should be called via npm run
+ *
+ * Ensures that all slides exists
+ */
 'use strict';
 
 var _ = require('underscore/underscore')
