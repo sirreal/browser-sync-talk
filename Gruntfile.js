@@ -87,7 +87,7 @@ module.exports = function(grunt) {
       },
       pages: {
         options: {
-          remote: 'git@github.com:sirreal/bootstrap-intro.git',
+          remote: 'git@github.com:sirreal/browser-sync-talk.git',
           branch: 'gh-pages'
         }
       }
