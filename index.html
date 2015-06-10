@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>Browsersync</title>
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.css">
+
+        <link rel="stylesheet" href="css/theme.css" id="theme">
+        <link rel="stylesheet" href="css/hljs.css">
+
+        <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+        <script>
+          if( window.location.search.match( /print-pdf/gi ) ) {
+            var link = document.createElement( 'link' );
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                link.href = 'bower_components/reveal.js/css/print/pdf.css';
+                document.getElementsByTagName( 'head' )[0].appendChild( link );
+            }
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <div class="reveal">
+
+            <div class="slides">
+
+                
+                    
+                        
+    <section data-markdown="slides/title.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/me.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/que-hace.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/flujo.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/comparativa.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/que-hace-avanzado.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/que-hace-mas.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/demo.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/como-puedo-usar.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/uso-install.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/uso-ejemplos.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/uso-basico.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/uso-node.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/uso-php.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/uso-config.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/uso-grunt.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/uso-gulp.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/como-lo-hace.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/websockets.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/socketio.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/funcionamiento.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/fin.md"></section>
+
+
+                    
+                    
+                
+            </div>
+
+        </div>
+
+        <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
+        <script src="bower_components/reveal.js/js/reveal.js"></script>
+        <script>
+            // Configure Reveal
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
+
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: 'bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+                    // { src: 'bower_components/reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+                    // { src: 'bower_components/reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+
+                    { src: 'js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } }
+                ]
+            });
+        </script>
+
+    </body>
+
+</html>
