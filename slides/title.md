@@ -2,6 +2,5 @@
 
 or: How I learned to stop refreshing and write the code
 
-<small class="fragment">
+Note:
 ¿Teléfono rojo?, volamos hacia Moscú
-</small>

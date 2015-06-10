@@ -22,8 +22,7 @@
   , "postinstall": "bower -q install"
   , "makeslides": "node scripts/makeslides.js"
   , "demo": "browser-sync start --config demo-browsersync-config.js"
-
-  , "ex-node": "node scripts/ex-node.js"
+  , "ex-node": "PORT=54321 node demo/server.js"
   },
   "dependencies": {
     "bower": "^1.4.1",
