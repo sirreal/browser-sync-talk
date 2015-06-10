@@ -3,11 +3,6 @@
 ```js
 // Observación del sistema de ficheros
 var watcher = require("chokidar").watch(patterns, opts);
-emitter.emit("file:changed", {
-  event: event,
-  path: path,
-  namespace: namespace
-});
 
 // Comunicación con socket.io
 bs.io.sockets.emit("browser:reload");
