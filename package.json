@@ -17,16 +17,17 @@
     "node": ">=0.10.0",
     "npm": ">=1.3.7"
   },
-  "scripts":
-  { "test": "grunt test"
-  , "postinstall": "bower -q install"
-  , "makeslides": "node scripts/makeslides.js"
-  , "demo": "browser-sync start --config demo-browsersync-config.js"
-  , "ex-node": "PORT=54321 node demo/server.js"
+  "scripts": {
+    "test": "grunt test",
+    "postinstall": "bower -q install",
+    "makeslides": "node scripts/makeslides.js",
+    "ex-node": "PORT=54321 node demo/server.js",
+    "ex-ws": "PORT=53241 node demo/ws.js"
   },
   "dependencies": {
     "bower": "^1.4.1",
     "browser-sync": "^2.7.7",
-    "express": "^4.12.4"
+    "express": "^4.12.4",
+    "socket.io": "^1.3.5"
   }
 }
